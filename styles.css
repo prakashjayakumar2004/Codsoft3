@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body{
+background-image: linear-gradient(45deg, rgb(133, 255, 189) 0%, rgb(255, 251, 125) 100%);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.calculator_light{
+    background-image: linear-gradient(to right, rgb(0, 176, 155,0.3), rgb(150, 201, 61,0.3));
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(19, 15, 9);
+}
+
+#display{
+    padding:0px 10px;
+    height: 100px;
+    max-width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+    overflow-x: hidden;
+    color: rgb(38, 26, 68);
+}
+
+.display_scr{
+    box-shadow: 0px 0px 10px rgb(61, 61, 36);
+    border: 0;
+    margin: 20px 10px;
+    background-color: aliceblue;
+}
+
+button{
+    box-shadow: 0 0 10px rgb(64, 90, 55);
+    margin: 7px;
+    height: 50px;
+    width: 50px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+#clear, #backspace, #equal{
+    background-color: rgb(254, 244, 99);
+    color: rgb(23, 23, 16);
+    box-shadow: 0 0 10px rgba(101, 78, 78, 0.8);
+}
+
+#equal{
+    height: 120px;
+}
+
+#equal:hover{
+    transform: scale(1.05);
+}
+
+.button_op{
+    background-color: rgb(253, 219, 176);
+}

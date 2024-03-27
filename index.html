@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator_light">
+            <div class="display_scr">
+                <div id="display"></div>
+            </div>
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button class="button_op" id="clear">C</button></td>
+                        <td><button class="button_op" id="/">&divide;</button></td>
+                        <td><button class="button_op" id="*">&times;</button></td>
+                        <td><button class="button_op" id="backspace"><</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button_no" id="7">7</button></td>
+                        <td><button class="button_no" id="8">8</button></td>
+                        <td><button class="button_no" id="9">9</button></td>
+                        <td><button class="button_op" id="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button_no" id="4">4</button></td>
+                        <td><button class="button_no" id="5">5</button></td>
+                        <td><button class="button_no" id="6">6</button></td>
+                        <td><button class="button_op" id="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button_no" id="1">1</button></td>
+                        <td><button class="button_no" id="2">2</button></td>
+                        <td><button class="button_no" id="3">3</button></td>
+                        <td rowspan="2"><button class="button_eq" id="equal">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button_op" id="(">(</button></td>
+                        <td><button class="button_no" id="0">0</button></td>
+                        <td><button class="button_op" id=")">)</button></td>                    
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
